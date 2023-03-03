@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Document</title>
+</head>
+<body style="background-color: var(--bocolor);">
+     <!-- navbar -->
+     <nav class="navbar navbar-expand-lg bg-white shadow sticky-top">
+        <div class="container">
+        <a class="navbar-brand text-info" href="index.html">BeautyOfBeaches</a>
+        <button class="navbar-toggler" href="#offcanvasExample" role="button" type="button" data-bs-toggle="offcanvas" aria-controls="offcanvasExample">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExample">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active px-3" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle px-3" href="explore.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Explore
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="northern.html">northern</a></li>
+                    <li><a class="dropdown-item" href="#">southern</a></li>
+                    <li><a class="dropdown-item" href="#">eastern</a></li>
+                    <li><a class="dropdown-item" href="#">western</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link px-3" href="gallary.html">Gallary</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link px-3" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link px-3" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!-- navbar ending -->
+
+    <!-- landing page -->
+    <section id="other-landing">
+        <div class="overlay df" style="justify-content: center;">
+            <div>
+                <h2 class="text-white text-center fs-1">Contact <span class="text-info fs-1">Us</span></h2>
+                <h4 class="text-white text-center fs-5">HOME - CONTACT</h4>
+            </div>
+        </div>
+    </section>
+    <!-- landing page end -->
+
+    <!-- contact us -->
+    <h2 class="message">Have a question or comment? <br> Use the form below to send us a message.</h2>
+    <section class="contact_us">
+        <div class="cotainer">
+            <div class="contact-form row">
+                <div class="form-field col-lg-6">
+                    <input id="name" class="input-text" type="text" name="">
+                    <label for="name" class="label">your First Name</label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input id="name" class="input-text" type="text" name="">
+                    <label for="name" class="label">your Last name</label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input id="email" class="input-text" type="email" name="">
+                    <label for="email" class="label">your email</label>
+                </div>
+                <div class="form-field col-lg-6">
+                    <input id="phone" class="input-text" type="text" name="">
+                    <label for="phone" class="label">your Contact number</label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input id="message" class="input-text" type="text" name="">
+                    <label for="message" class="label">message here</label>
+                </div>
+                <div class="form-field col-lg-12">
+                    <input class="submit-btn" type="submit" value="submit" name="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact us end -->
+
+    <!-- contact us -->
+    <div class="contact text-center mt-5">
+        <p class="fs-4">Our Offices</p>
+        <h1 class="fs-1">Travel Offices</h1>
+    </div>
+    <section id="contact-container" class="df m" style="justify-content: space-around;">
+        <div class="contact-box"></div>
+        <div class="contact-box bg-info"></div>
+        <div class="contact-box"></div>
+    </section>
+    <!-- contact us end-->
+
+    <!-- map -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.49818690256!2d3.23571561422571!3d6.7088890228429685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b995b41b7dd6d%3A0xb6c08985374e0e09!2sAptech%20Computer%20Education%20-Sango%20Ota!5e0!3m2!1sen!2sus!4v1677792784680!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- map end -->
+</body>
+</html>

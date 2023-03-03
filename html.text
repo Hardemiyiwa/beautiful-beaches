@@ -1,0 +1,143 @@
+<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+
+                  bg-body-tertiary
+
+                  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+                  .offcanvas{
+                    background:
+                  }
+
+                  .landing-page{
+                    background:gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) no-repeat
+                    background-size:cover
+                  }
+                  navbar-nav a{
+                    transition: all 0.5s;
+                  }
+                  navbar-nav a:hover{
+                    color:
+                  }
+<nav class="navbar navbar-expand-lg shadow">
+          <div class="container">
+            <a class="navbar-brand text-info" href="#">BeautyOfBeaches</a>
+
+            <button class="navbar-toggler" href="#offcanvasExample" role="button" data-bs-toggle="offcanvas" aria-controls="offcanvasExample">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExample">Offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="explore.html">Explore</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="gallary.html">Gallary</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="contact.html">Contact</a>
+                  </li>  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+
+
+         <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="Popular-beaches p-3" style="height: 400px;">
+          <div class="container-beaches">
+            <!-- img container -->
+            <div data-aos="fade-up" class="img-container1 p-3" style="height: 300px;">
+              <img src="Static/img/Nunisa penida.jpg" alt="" style="width: 250px; height: 280px;">
+            </div>
+            <p class="fw-bold mt-3 ms-3" style="color:  rgb(6, 69, 90);">Nunsa Penida</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(113, 178, 200)"
+              class="bi bi-geo-alt-fill ms-3" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" /> <span
+                class="ms-1">Indonesia <span class="ms-3" style="color: rgb(113, 178, 200);">$24</span> Persons</span>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="Popular-beaches p-3" style="height: 400px;">
+          <div class="container">
+            <!-- img container -->
+            <div data-aos="fade-up" class="img-container1 p-3" style="height: 300px;">
+              <img src="Static/img/Diamond beach.jpg" alt="" style="width: 250px; height: 280px;">
+            </div>
+            <p class="fw-bold mt-3 ms-3" style="color:  rgb(6, 69, 90);">Diamond Beach</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(113, 178, 200)"
+              class="bi bi-geo-alt-fill ms-3" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" /> <span
+                class="ms-1">Indonesia <span class="ms-3" style="color: rgb(113, 178, 200);">$34</span> Persons</span>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class=" Popular-beaches p-3" style="height: 400px;">
+          <div class="container">
+            <!-- img container -->
+            <div data-aos="fade-up" class="img-container1 p-3" style="height: 300px;">
+              <img src="Static/img/Broken beach.jpg" alt="" style="width: 250px; height: 280px;">
+            </div>
+            <p class="fw-bold mt-3 ms-3" style="color:  rgb(6, 69, 90);">Broken Beach</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(113, 178, 200)"
+              class="bi bi-geo-alt-fill ms-3" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" /> <span
+                class="ms-1">Indonesia <span class="ms-3" style="color: rgb(113, 178, 200);">$75</span> Persons</span>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="Popular-beaches p-3" style="height: 400px;">
+          <div class="container">
+            <!-- img container -->
+            <div class="img-container1 p-3" style="height: 300px;">
+              <img src="Static/img/Diamond beach.jpg" alt="" style="width: 250px; height: 280px;">
+            </div>
+            <p class="fw-bold mt-3 ms-3" style="color:  rgb(6, 69, 90);">Sankt Gulgen</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(113, 178, 200)"
+              class="bi bi-geo-alt-fill ms-3" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" /> <span
+                class="ms-1">Austria<span class="ms-3" style="color: rgb(113, 178, 200);">$54</span> Persons</span>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
