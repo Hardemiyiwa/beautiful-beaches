@@ -9,21 +9,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
-main{
-    padding: 80px 18%;
-}
-.best-content{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px,auto));
-    grid-gap: 2rem;
-    align-items: center;
-    margin-top: 5rem;
-}
-.thum{
-    width: 250px;
-    height: 300px;
-}
+
 .hdings{
     text-align: center;
     font-family: var(--hdfont);
@@ -44,6 +32,38 @@ main{
 .bs{
     box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+/* Button */
+.btn {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.btn.btn-primary,
+.btn.btn-secondary {
+    color: #FFFFFF;
+}
+
+.btn-sm-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 0px;
+}
 /* navbar styling */
 .navbar{
     height: 12vh;
@@ -58,6 +78,7 @@ main{
 }
 .navbar-nav a{
     transition: all 1s;
+    font-weight: 600;
     font-size: 1em;
     color: var(--infocolor);
 }
@@ -77,7 +98,7 @@ main{
     background-position: center;
     border-radius: 5px;
     width: 100%;
-    height: 75vh;
+    height: 50vh;
     margin-bottom: 120px;
 }
 .overlay{
@@ -90,6 +111,97 @@ main{
 p{
     font-weight: 650;
 }
+
+/*** Section Title ***/
+.section-title {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.section-title::before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 80px);
+    height: 2px;
+    top: 4px;
+    left: -40px;
+    background: var(--infocolor);
+    z-index: -1;
+}
+
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: calc(100% + 120px);
+    height: 2px;
+    bottom: 5px;
+    left: -60px;
+    background: var(--infocolor);
+    z-index: -1;
+}
+
+.section-title.text-start::before {
+    width: calc(100% + 40px);
+    left: 0;
+}
+
+.section-title.text-start::after {
+    width: calc(100% + 60px);
+    left: 0;
+}
+
+/* enjoy */
+.enjoy img{
+    transition: .5s;
+}
+.enjoy img:hover{
+    transform: scale(1.1);
+}
+
+/* where destination */
+
+.destination-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+.col-content{
+    position: relative;
+}
+.col-content img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(70%);
+    transition: all .3s cubic-bezier(.495, .05, .55, .95);
+    will-change: filter;
+}
+.col-content h5{
+    position: absolute;
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--litcolor);
+    left: 15px;
+    bottom: 35px;
+}
+.col-content p{
+    position: absolute;
+    font-size: 15px;
+    color: var(--litcolor);
+    left: 15px;
+    bottom: 10px;
+    letter-spacing: 2px;
+}
+.col-content img:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+
 /* contact-us styling */
 .message{
     text-align: center;
@@ -163,7 +275,7 @@ p{
     height: fit-content;
 }
 .contact-box{
-    width: 28%;
+    width: 32%;
     height: 150px;
     border-radius: 10px;
     background-color: white;
@@ -176,6 +288,35 @@ p{
     font-size: small;
 }
 
+
+/* Team */
+.team-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+}
+
+.team-item img {
+    transition: .5s;
+}
+
+.team-item:hover img {
+    transform: scale(1.1);
+}
+
+.team-item .btn {
+    background: var(--litcolor);
+    color: var(--infocolor);
+    border-radius: 20px;
+    border-bottom: 1px solid var(--infocolor);
+}
+
+.team-item .btn:hover {
+    background: var(--infocolor);
+    color: var(--litcolor);
+}
+
+
+
+/* responsiveness */
 @media only screen and (max-width:991px){
     #contact-container{
         width: 90%;
@@ -188,10 +329,18 @@ p{
     .north{
         width: 80%;
     }
+   
 }
 @media only screen and  (max-width:767px){
     .contact-box{
         width: 60%;
         margin: 30px auto;
     }
+   
+}
+
+/* footer */
+.footer a{
+    text-decoration: none !important;
+    text-align: justify;
 }

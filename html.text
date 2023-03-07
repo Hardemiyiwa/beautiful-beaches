@@ -141,3 +141,5 @@
       </div>
     </div>
   </div>
+
+   filter: brightness(100%) hue-rotate(45deg);
