@@ -332,6 +332,9 @@ p{
    
 }
 @media only screen and  (max-width:767px){
+    #contact-container{
+        width: 90%;
+    }
     .contact-box{
         width: 60%;
         margin: 30px auto;
