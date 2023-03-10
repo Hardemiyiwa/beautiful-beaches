@@ -165,7 +165,7 @@ p{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, auto));
     grid-gap: 2rem;
-    align-items: center;
+    align-items: center !important;
     margin-top: 5rem;
 }
 .col-content{
@@ -317,13 +317,21 @@ p{
 
 
 /* responsiveness */
+@media only screen and (max-width:1024px){
+    #contact-container{
+        width: 82%
+    }
+    .contact-box{
+        width: ;
+    }
+}
 @media only screen and (max-width:991px){
     #contact-container{
         width: 90%;
         flex-wrap: wrap;
     }
     .contact-box{
-        width: 35%;
+        width: 45%;
         margin: 30px auto;
     }
     .north{
